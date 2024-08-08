@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lua Script Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Lua Script Generator</h1>
+    <form id="scriptForm">
+        <label for="scriptType">Select Script Type:</label>
+        <select id="scriptType">
+            <option value="basic">Basic Command</option>
+            <option value="gui">GUI Creation</option>
+        </select>
+        <button type="button" onclick="generateScript()">Generate Script</button>
+    </form>
+    <h2>Generated Script:</h2>
+    <textarea id="scriptOutput" readonly></textarea>
+    <script src="script.js"></script>
+</body>
+</html>
